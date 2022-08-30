@@ -1,0 +1,47 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+  font-family: 'orbitron', sans-serif;
+}
+
+.scoreboard {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.reset {
+  justify-content: end;
+  text-align: center;
+  padding: 3rem;
+}
+
+.score {
+  height: 55vh;
+  padding: 4rem;
+  background-color: rgb(0, 0, 255, .4);
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  outline: solid rgb(66, 66, 255);
+}
+
+.teams {
+  font-size: 5rem;
+}
+
+.score-card {
+  opacity: unset;
+  outline: solid rgb(96, 96, 255);
+  background-color: rgba(94, 94, 224, 0.4);
+  border-radius: .3rem;
+  height: 15rem;
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.add-score {
+  justify-content: center;
+  padding: 4rem;
+}
